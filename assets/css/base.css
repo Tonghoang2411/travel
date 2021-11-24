@@ -1,0 +1,66 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #222;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 1296px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.grid__column-2{
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 16.66667%;
+}
+
+.grid__column-3{
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 25%;
+}
+
+.grid__column-4{
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 33.33333%;
+}
+.grid__column-2-4{
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 20%;
+}
+.grid__column-6{
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 50%;
+}
+.grid__column-10{
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 83.33333%;
+}
