@@ -406,7 +406,7 @@
     position: relative;
 }
 .slider__img-1{
-    background: url('/assets/img/file0.png') top center / cover no-repeat;
+    background: url('../img/file0.png') top center / cover no-repeat;
     height: 290px;
     width: 1296px;
     border-radius: 16px;
@@ -414,7 +414,7 @@
 
 }
 .slider__img-2{
-    background: url('/assets/img/file.png') top center / cover no-repeat;
+    background: url('../img/file.png') top center / cover no-repeat;
     height: 290px;
     width: 1296px;
     border-radius: 16px;
@@ -423,7 +423,7 @@
 }
 
 .slider__img-3{
-    background: url('/assets/img/file1.png') top center / cover no-repeat;
+    background: url('../img/file1.png') top center / cover no-repeat;
     height: 290px;
     width: 1296px;
     border-radius: 16px;
